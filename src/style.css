@@ -1,0 +1,62 @@
+:root {
+  color-scheme: dark;
+  font-family: system-ui, sans-serif;
+  color: #f5f5f5;
+  background: #111113;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+}
+
+main {
+  box-sizing: border-box;
+  width: min(32rem, calc(100vw - 2rem));
+  margin-block: 1rem;
+  padding: clamp(1.25rem, 5vw, 2rem);
+  border: 1px solid #3d3234;
+  border-radius: 1rem;
+  background: #1c1a1c;
+}
+
+.etiqueta {
+  margin: 0;
+  color: #ff858b;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 0.5rem 0 1.5rem;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #746468;
+  border-radius: 0.5rem;
+  background: #111113;
+  color: inherit;
+  font: inherit;
+}
+
+input:focus-visible {
+  outline: 2px solid #ff858b;
+  outline-offset: 2px;
+}
+
+#dica {
+  margin: 0.75rem 0 0;
+  color: #c9c1c3;
+}
